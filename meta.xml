@@ -1,0 +1,119 @@
+<meta>
+    <info author="Aintaro" name="Ghetto" version="1.0" description="Ghetto" type="gamemode" />
+   	<file src="conf/sounds/male_scream_short.mp3" />
+	<file src="conf/sounds/taser.wav" />
+    	<file src="conf/sounds/treadmill.mp3" />
+	<file src="conf/images/achievement.png" />
+	<file src="conf/images/blips/icon.png" />
+	<file src="conf/images/blips/fuel.png" />
+	<file src="conf/images/blips/speedcamera.png" />
+	<file src="conf/images/blips/materials.png" />
+	<file src="conf/images/splat.png" />
+	<file src="conf/images/paper.png" />
+	<file src="conf/images/iphone.png" />
+	<file src="conf/images/samsung.png" />
+	<file src="conf/images/mechanic.png" />
+	<file src="conf/images/header.png" />
+	<file src="conf/images/cross.png" />
+	<file src="conf/images/weapons/ak47icon.png" />
+	<file src="conf/images/weapons/colt45icon.png" />
+	<file src="conf/images/weapons/desert_eagleicon.png" />
+	<file src="conf/images/weapons/mp5icon.png" />
+	<file src="conf/images/weapons/sawnofficon.png" />
+	<file src="conf/images/weapons/shotgspaicon.png" />
+	<file src="conf/images/weapons/SNIPERicon.png" />
+	<file src="conf/images/weapons/tec9icon.png" />
+	<config src="conf/skins.xml" type="client" />
+	<include resource="customblips" />
+	<include resource="realdriveby" />
+	<include resource="bone_attach" />
+	<include resource="easy3dtext" />
+	<include resource="modloader" />
+	<include resource="sounds" />
+	<include resource="parachute" />
+
+	<script src="server/s_Login.lua" />
+    	<script src="server/markers/s_marker.lua" />
+    	<script src="server/vehicles/s_vehicles_spawn.lua" />
+    	<script src="server/jobs/s_farmer_job.lua" />
+    	<script src="server/jobs/s_main_job.lua" />
+    	<script src="server/ped/s_player_death.lua" />
+    	<script src="server/stores/s_clothes_store.lua" />
+    	<script src="server/blips/s_blip_system.lua" />
+    	<script src="server/hacking/s_hacking_system.lua" />
+    	<script src="server/jobs/s_pilot_job.lua" />
+    	<script src="server/jobs/s_criminal_job.lua" />
+	<script src="server/jobs/s_police_job.lua" />
+	<script src="server/stores/s_ammunation_store.lua" />
+	<script src="server/splatscreen/s_damage_splat.lua" />
+	<script src="server/gym/s_main.lua" />
+	<script src="timer/s_main.lua" />
+	<script src="server/achievement/s_achievement.lua" />
+	<script src="server/ped/s_commands.lua" />
+	<script src="server/ped/s_wanted_stars.lua" />
+	<script src="server/permits/s_main.lua" />
+	<script src="server/vehicles/s_personal_vehicle.lua" />
+	<script src="server/utility/s_main_utility.lua" />
+	<script src="server/tutorial/s_main_tutorial.lua" />
+	<script src="server/stores/s_general_store.lua" />
+	<script src="server/ped/s_friends_list.lua" />
+	<script src="server/tankstations/s_main_tankstations.lua" />
+	<script src="server/vehicles/s_tuning_vehicle.lua" />
+	<script src="server/ped/s_player_damage.lua" />
+	<script src="server/speedcamera/s_main_speed_camera.lua" />
+	<script src="server/jobs/s_job_payments.lua" />
+	<script src="server/jobs/s_job_level.lua" />
+	<script src="server/jobs/s_taxi_job_bot.lua" />
+	<script src="server/chat/s_main_chat.lua" />
+	<script src="server/ped/s_vehicle_penalty.lua" />
+	<script src="server/game/events/s_criminal_events.lua" />
+	<script src="server/jobs/s_materials.lua" />
+
+	<script src="client/permits/c_main.lua" type="client" />
+	<script src="binds/c_bind_key.lua" type="client" />
+	<script src="client/player/c_inventory.lua" type="client" />
+	<script src="client/gym/c_main.lua" type="client" />
+	<script src="client/stores/c_ammunation_interface.lua" type="client" />
+	<script src="client/peds/c_load_peds.lua" type="client" />
+	<script src="client/jobs/c_police_job.lua" type="client" />
+    	<script src="client/jobs/c_criminal_job.lua" type="client" />
+    	<script src="client/jobs/c_pilot_job.lua" type="client" />
+	<script src="client/stats/c_stats_interface.lua" type="client" />
+    	<script src="client/hacking/c_hacking_interface.lua" type="client" />
+    	<script src="client/blips/c_blip_interface.lua" type="client" />
+    	<script src="client/stores/c_clothes_interface.lua" type="client" />
+    	<script src="client/c_login.lua" type="client" />
+    	<script src="client/markers/c_marker.lua" type="client" />
+    	<script src="client/jobs/c_farmer_job.lua" type="client" />
+    	<script src="client/jobs/c_main_job.lua" type="client" />
+	<script src="client/blips/c_custom_blip.lua" type="client"/>
+	<script src="client/achievement/c_achievement_interface.lua" type="client"/>
+    	<script src="client/vehicles/c_spawn_vehicles_interface.lua" type="client" />
+	<script src="client/information/c_information_interface.lua" type="client" />
+	<script src="client/c_main_interface.lua" type="client" />
+	<script src="client/jobs/c_job_progress_interface.lua" type="client" />
+	<script src="client/player/c_player_death_interface.lua" type="client" />
+	<script src="client/permits/c_fight_permit.lua" type="client" />
+	<script src="client/permits/c_car_permit.lua" type="client" />
+	<script src="client/gps/c_gps.lua" type="client" />
+	<script src="client/vehicles/c_personal_vehicle.lua" type="client" />
+	<script src="client/utility/c_main_utility.lua" type="client" />
+	<script src="client/tutorial/c_main_tutorial.lua" type="client" />
+	<script src="client/settings/c_main_settings.lua" type="client" />
+	<script src="client/player/c_friends_list.lua" type="client" />
+	<script src="client/stores/c_general_store_interface.lua" type="client" />
+	<script src="client/phone/c_main_phone.lua" type="client" />
+	<script src="client/tankstations/c_main_tankstations.lua" type="client" />
+	<script src="client/vehicles/c_tuning_vehicle.lua" type="client" />
+	<script src="client/speedcamera/c_main_speed_camera.lua" type="client" />
+	<script src="client/jobs/c_job_attributes.lua" type="client" />
+	<script src="client/jobs/c_taxi_job_bot.lua" type="client" />
+	<script src="client/c_first_login_screen.lua" type="client" />
+	<script src="client/game/events/c_criminal_events.lua" type="client" />
+	<script src="client/jobs/c_materials_interface.lua" type="client" />
+
+	<export function="isLoggedIn" type="client" />
+
+
+    <min_mta_version client="1.3.4"></min_mta_version>
+</meta>

@@ -1,0 +1,16 @@
+
+
+
+Police job :
+
+-Taser (silence gun : 23)
+-Police bat = 3 hits on the same person = arrested
+-Person arrested go to jail
+-Police officer points for each arrest
+-criminals show up for red for police officers
+
+Gym
+
+TODO :
+
+Buy fighting permit in the gym when player has reached an amount in stamina and muscles
